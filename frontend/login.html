@@ -4,8 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <div class="logodiv">
+                <h1 class="logo">learn<span style="color: #636B2F;">Build</span></h1>
+            </div>
+          
+            <div class="nav-bar">
+                <ul>
+                    <li><a href="/frontend/index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Notes</a></li>
+                    <li><a href="#">Test Series</a></li>
+                    <li><a href="#">Revise</a></li>
+                    <li><a href="#">Contact</a></li>
+
+                    <li><a href="/frontend/register.html" class="btn-1">Register</a></li>
+                    <li><a href="/frontend/login.html" class="btn-2">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="registerform">
+               <div class="registerdiv">
+                  <div class="form-image">
+                      <img src="/public/ChatGPT Image Oct 11, 2025, 03_35_14 PM.png" alt="">
+                  </div>
+
+                  <div class="form-content">
+                      <div>
+                        <form>
+                        <label for="name">Name</label> <br>
+                        <input type="text" placeholder="Enter your name" required><br>
+
+                        <label for="email">Email</label><br>
+                        <input type="email" placeholder="Enter your email" required><br>
+
+                        <label for="phoneNumber">Phone</label><br>
+                        <input type="text" placeholder="Enter your phone number" required><br>
+
+                        <label for="age">Age</label><br>
+                        <input type="text" placeholder="Enter your age" required>
+                        <br>
+
+                        <label for="class">Studyin In</label>
+                        <select name="class" id="class">
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select><br>
+
+                          <input type="submit" value="Register">
+                      </form>
+                      </div>
+                  </div>
+               </div>
+        </section>
+    </header>
 </body>
+
+<script src="index.js"></script>
 </html>

@@ -136,4 +136,34 @@ nav ul li a:hover {
 
 .form-content{
     background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.form-content input{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    border: 1px solid #636B2F;
+}
+
+.form-content select{
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.form-content input[type='submit']{
+    background-color: #636B2F;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    color: white;
 }
